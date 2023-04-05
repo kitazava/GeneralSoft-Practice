@@ -13,6 +13,7 @@ body{
 
 
 .container{
+    position: relative;
     width: 1200px;
     margin: 0 auto;
 }
@@ -121,6 +122,22 @@ body{
     mix-blend-mode: normal;
 }
 
+
+.backimg{
+    position: absolute;
+    margin-left:-30px;
+}
+
+.backimg1{
+    position: absolute;
+    right: -30px;
+}
+
+
+.last_article{ 
+    position: relative;
+}
+
 .our_outline{
     display: flex;
     justify-content: center;
@@ -206,7 +223,7 @@ body{
     border: 1px solid #458FF6;
 }
 
-.our_btn:hover{
+/* .our_btn:hover{
     color: #ffffff;
     padding: 20px 50px;
     background: #458FF6;
@@ -216,7 +233,7 @@ body{
     font-weight: 700;
     font-family: 'Muli';
     border: 1px solid #458FF6;
-}
+} */
 
 
 
@@ -282,6 +299,62 @@ body{
     height: 450px; 
     margin-top:266px;
 }
+
+.slider{
+    display: flex;
+    justify-content: center;
+    margin-top: 47px;
+}
+
+.slider_switch{
+    display: flex;
+    align-self: center;
+    margin: 0px 80px 0px 80px;
+}
+
+.circle_slider1{
+    margin: 0px 18px 0px 18px;
+    background-color:#5B9BF3;
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+.circle_slider{
+    margin: 0px 18px 0px 18px;
+    background-color:#5B9BF3;
+    opacity: 0.3;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+.circle_slider:hover{
+    background-color:#5B9BF3;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.leftimg{
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.leftimg:hover{
+    opacity: 1;
+}
+
+.rigthimg{
+    cursor: pointer;
+}
+
+.rigthimg:hover{
+    opacity: 0.3;
+}
+
 
 .comment_wrapper{
     display: flex;
