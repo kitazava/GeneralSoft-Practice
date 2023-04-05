@@ -7,7 +7,7 @@
 
 body{
     background: #ffffff;
-    height: 5850px;
+
 }
 
 
@@ -528,10 +528,80 @@ body{
 }
 
 .footer{
-    width: 100% ;
+    width: 100%;
     margin-top: 201px;
     height: 432px;
+    padding: 100px 0px 0px 0px;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
 
 
+.container_footer{
+    width: 1200px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+
+.first_block_footer{
+    width: 391px;
+    height: 214px;
+}
+
+.first_text_footer, .second_text_footer{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.second_text_footer{
+    margin-top:31px;
+}
+
+.first_text_footer{
+    margin-top: 22px;
+}
+
+.footer_wrapper{
+    display: flex;
+
+}
+
+.second_block_navigation_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.footer_block{
+    margin-left: 145px;
+    
+}
+
+.footer_block ul{
+    list-style: none;
+}
+
+.navigation_footer a{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.main_text{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
