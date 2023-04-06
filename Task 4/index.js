@@ -8,9 +8,9 @@ class Square extends Quadrilateral{
     constructor(a){
         super(a)
     }
-    squareSquare(){
-        return Math.pow(this.a,2)
-    }
+    // squareSquare(){
+    //     return Math.pow(this.a,2)
+    // }
 }
 
 class Rectangle extends Quadrilateral{
@@ -18,18 +18,18 @@ class Rectangle extends Quadrilateral{
         super(a)
         this.b =b
     }
-    squareRectangle(){
-        return this.a * this.b
-    }
+    // squareRectangle(){
+    //     return this.a * this.b
+    // }
 }
 
 class Circle{
     constructor(r){
         this.r = r 
     }
-    squareCircle(){
-        return Math.PI *(Math.pow(this.r,2))
-    }
+    // squareCircle(){
+    //     return Math.PI *(Math.pow(this.r,2))
+    // }
 }
 
 function totalSquare(array){
