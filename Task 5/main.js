@@ -1,7 +1,7 @@
-import { opPlus } from "./js/assets/plus.js";
-import { opMinus } from "./js/assets/minus.js";
-import { opMultiplication } from "./js/assets/multiplication.js";
-import { opDivision } from "./js/assets/division.js";
+import { opPlus } from "./js/plus.js";
+import { opMinus } from "./js/minus.js";
+import { opMultiplication } from "./js/multiplication.js";
+import { opDivision } from "./js/division.js";
 var optPlus = document.getElementById("optionPlus");
 var optMinus = document.getElementById("optionMinus");
 var optMultiplication = document.getElementById("optionMultiplication");
